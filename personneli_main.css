@@ -1,0 +1,14 @@
+body{
+  background-color: #f5f2f2
+}
+
+/* h1{ */
+  /* color: blue; */
+  /* color: rgb(149, 9, 189); */
+  /* color: rgba(149, 9, 189, 0.2); /*a for alpha (transparent to opaque)*/
+  /* color: #c90a80
+} */
+
+span{
+  color: #c90a80
+}

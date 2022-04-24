@@ -3,21 +3,64 @@
   <head>
     <meta charset="utf-8">
     <title>Personneli -- Acceuil</title>
+    <link rel="stylesheet" href="personneli_main.css">
   </head>
   <body>
-    <h1>Bienvenue dans l'application Personneli</h1>
-    <h2>Vous etes connectez sous xxx. Si ce n'est pas vous, veuillez-vous deconnecter et utiliser vos informations pour vous connecter.</h2>
-    <form  action="personneli_employes.html" method="get">
-      <input type="submit" name="employes" value="Registre des employes">
-    </form>
-    <form  action="personneli_departments.html" method="get">
-      <input type="submit" name="Departments" value="Departments et postes">
-    </form>
-    <form  action="personneli_payroll.html" method="get">
-      <input type="submit" name="payroll" value="Salaires et paie">
-    </form>
-    <form  action="personneli_absences.html" method="get">
-      <input type="submit" name="absences" value="Conges et absences">
-    </form>
+    <h1><span>Personneli</span></h1>
+    <h3><i>Vous etes connectez sous xxx. Si ce n'est pas vous, veuillez-vous deconnecter et utiliser vos informations pour vous connecter.</i></h3>
+    <table border="1">
+      <!-- <thead>
+        <th></th>
+      </thead> -->
+      <tr>
+        <td>
+          <form  action="personneli_employes.html" method="get">
+            <input type="submit" name="employes" value="Registre des employes">
+          </form>
+        </td>
+        <td>
+          Consulter liste des employes, creer/modifier profiles employes
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <form  action="personneli_departments.html" method="get">
+            <input type="submit" name="departments" value="Departements et postes">
+          </form>
+        </td>
+        <td>
+          Consulter liste des departements et positions, creer/modifier
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <form  action="personneli_payroll.html" method="get">
+            <input type="submit" name="payroll" value="Salaires et paie">
+          </form>
+        </td>
+        <td>
+          Consulter historique des salaires, effectuer/plannifier paie
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <form  action="personneli_absences.html" method="get">
+            <input type="submit" name="absences" value="Conges et absences">
+          </form>
+        </td>
+        <td>
+          Consulter historique des absences, enregistrer/plannifier absences
+        </td>
+      </tr>
+
+    </table>
+
+    <div>
+
+    </div>
+
   </body>
 </html>
